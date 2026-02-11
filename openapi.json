@@ -5173,7 +5173,7 @@
             "$ref": "#/components/responses/401"
           },
           "403": {
-            "$ref": "../components/responses/403.yaml"
+            "$ref": "#/components/responses/403"
           },
           "404": {
             "$ref": "#/components/responses/404"
@@ -22062,6 +22062,9 @@
       },
       "401": {
         "description": "Ошибка авторизации."
+      },
+      "403": {
+        "description": "Доступ запрещен."
       },
       "402": {
         "description": "Ограничения на запрос."
